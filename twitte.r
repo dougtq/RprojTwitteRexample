@@ -13,7 +13,7 @@ setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
 # 455827 é o código de São Paulo
 trendsBrasilia <- getTrends(woeid = 455827)
 # 10 primeiros apenas
-trendsBrasilia$name[1:10]
+trendsBrasilia$name[1:27]
 
 imp <- searchTwitter('Wenger', n = 50)  #COYG lol
 imp[c(1, 25, 50)]
